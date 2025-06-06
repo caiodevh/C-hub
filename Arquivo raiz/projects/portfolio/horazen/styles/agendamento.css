@@ -1,0 +1,67 @@
+#agendamento {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), 
+    url("../src/agendamento-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 5rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 5rem;
+}
+
+.texto-vertical-tecnicas {
+    position: absolute;
+    left: 10px;
+    top: 60%;
+    transform: rotate(-90deg) translateY(-50%);
+    transform-origin: left top;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    padding: 0.3rem 0.5rem;
+    text-shadow: 1px 1px 1px 4px black;
+    z-index: 1;
+}
+
+.decorativo-agendamento{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: white;
+    opacity: 0.8;
+    align-items: center;
+    text-align: center;
+  }
+
+
+.conteudo-sobre-agendamento{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 1.5rem;
+    border-radius: 8px;
+    z-index: 0;
+}
+
+.texto-central-agendamento{
+    text-align: center;
+
+}
+
+.redes-agendamento{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+}
+
+
+.redes-agendamento:hover{
+    font-size: 20px;
+    font-weight: 900;
+    transition: 0.3s;
+}

@@ -1,0 +1,31 @@
+.divisoria{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #00FF66;
+    padding: 10px 0;
+    position: relative ;
+}
+
+.conteudo-divisoria{
+    display: flex;
+    width: 200%;
+    animation: scrollText 20s linear infinite;
+}
+
+.conteudo-divisoria span {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #19161b;
+
+}
+
+@keyframes scrollText {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
