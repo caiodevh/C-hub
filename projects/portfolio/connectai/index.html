@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ConnectAI - Transforme Seu Negócio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <a href="../../../index.html#portfolio" class="back-button">← Voltar ao C-Hub</a>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container">
+            <button class="dark-mode-toggle" onclick="toggleDarkMode()">Modo Noturno</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="container">
+            <h1>Automatize Seu Negócio com Inteligência Artificial</h1>
+            <p>Soluções inteligentes para reduzir custos, otimizar processos e acelerar resultados.  
+            A ConnectAI está aqui para transformar a forma como sua empresa opera, combinando tecnologia de ponta com estratégias personalizadas para impulsionar seu crescimento.</p>
+            <button onclick="scrollToSection('contact')">Solicitar Demonstração</button>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>Quem Somos</h2>
+            <div class="carousel">
+                <div class="carousel-item active">
+                    <img src="src/img/equipe1.jpg" alt="Equipe ConnectAI">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/img/equipe2.jpg" alt="Trabalho em equipe">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/img/equipe3.jpg" alt="Tecnologia e inovação">
+                </div>
+                <button class="carousel-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="carousel-btn next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+            <p>Somos uma empresa especializada no desenvolvimento de soluções inovadoras com base em Inteligência Artificial.  
+                Nossa missão é ajudar negócios a se adaptarem à nova era digital, otimizando processos, aumentando a produtividade e criando vantagens competitivas.</p>
+        </div>
+    </section>
+
+    <section class="solutions">
+        <div class="container">
+            <h2>Soluções Inteligentes</h2>
+            <p>Na ConnectAI, desenvolvemos soluções que transformam negócios. Nossos serviços são pensados para otimizar resultados, reduzir custos e oferecer insights estratégicos com o uso da tecnologia.</p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <img src="src/img/chatbot.jpg" alt="Chatbot Inteligente">
+                    <div class="content">
+                        <h3>Chatbots Inteligentes</h3>
+                        <p>Melhore o atendimento ao cliente com chatbots personalizados e integrados aos seus canais de comunicação.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <img src="src/img/analise-dados.jpg" alt="Análise de Dados">
+                    <div class="content">
+                        <h3>Análise de Dados</h3>
+                        <p>Transforme grandes volumes de dados em insights valiosos para tomada de decisão.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <img src="src/img/automacao.jpg" alt="Automação de Processos">
+                    <div class="content">
+                        <h3>Automação de Processos</h3>
+                        <p>Automatize tarefas repetitivas e aumente a eficiência operacional com nossos sistemas de automação inteligente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Pronto para Transformar Seu Negócio?</h2>
+            <p>Entre em contato conosco e descubra como podemos criar soluções sob medida para o seu negócio.</p>
+            <form>
+                <input type="text" placeholder="Nome Completo" required>
+                <input type="text" placeholder="Empresa" required>
+                <input type="email" placeholder="E-mail" required>
+                <button type="submit">Quero Saber Mais</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ConnectAI. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+#sobre {
+    background: linear-gradient(to bottom, #050507, #8000FF);
+    color: #0e0e0e;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: #EAECEE;
+    border-radius: 10px;
+    padding: 40px;
+    width: 70%;
+    max-width: 1200px; /* Limita a largura máxima */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 25px auto; /* Garante que o container tenha margem automática nas laterais */
+}
+
+.profile-card {
+    background: linear-gradient(45deg, #00ff667d 2%, #cad0d7a9 50%, #8000ff7b 98%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+H1{
+    font-weight: bold;
+}
+
+.descrição-sobre{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word; 
+}
+
+.destaque{
+    font-weight: bolder;
+}
+
+.legenda-tech{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#html-class{
+    color: #ec6231;
+}
+
+#css-class{
+    color: #214ce5;
+}
+
+#js-class{
+    color: #f8dd44;
+}
+
+#php-class{
+    color: #7b7fb5;
+}
+
+#python-class{
+    color: #3a6c92;
+}
+
+#mysql-class{
+    color: #f29418;
+}
+
+#java-class{
+    color: #ee272c;
+}
+
+#wordpress-class{
+    color: #28799e;
+}
+
+
+.technologies-card {
+    background: linear-gradient(145deg, #00ff667d 2%, #cad0d7a9 50%, #8000ff7b 98%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.technologies {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Flexível, no máximo 3 colunas */
+    gap: 10px;
+    justify-items: center; /* Alinha os ícones no centro das colunas */
+    margin-top: 20px;
+}
+
+.tech {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffa7;
+    border-radius: 10px;
+    padding: 10px;
+    transition: background-color 0.3s;
+    font-size: 50px;
+}
+
+.tech:hover {
+    background-color: #1b1b1b;
+    width: 105px;
+    height: 105px;
+    transition: 0.3s;
+}
+
+.tech img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.popup {
+    display: none; /* Inicialmente escondido */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.popup-content {
+    background: #e7e2f1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+}
+
+.popup-content img {
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+#popup-title{
+    margin-top: 25px;
+    font-weight: 900;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+}
+
+.close:hover {
+    font-size: 32px;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 600px) {
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .popup-content img {
+        width: 250px;
+    }
+
+
+
+
+}

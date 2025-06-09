@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('header.css');
+@import url('about.css');
+@import url('tecnicas.css');
+@import url('agendamento.css');
+
+*{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+a, ul, li{
+    list-style-type: none;
+    text-decoration: none;
+}
+

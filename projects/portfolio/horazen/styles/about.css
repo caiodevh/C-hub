@@ -1,0 +1,75 @@
+.sobre {
+    background-color: #95778c;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: auto;
+    padding: 2rem 1rem 0;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.texto-vertical {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: rotate(-90deg) translateY(-50%);
+    transform-origin: left top;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    padding: 0.3rem 0.5rem;
+    text-shadow: 1px 1px 1px 4px black;
+    z-index: 1;
+}
+
+.conteudo-sobre {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 1.5rem;
+    border-radius: 8px;
+    z-index: 0;
+}
+
+.banner-bottom {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("../src/banner-botton-about.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.frase-animada {
+    width: 100%;
+    overflow: hidden;
+}
+
+.faixa-texto {
+    display: flex;
+    animation: scrollText 20s linear infinite;
+}
+
+.faixa-texto p {
+    font-size: 2rem;
+    color: white;
+    white-space: nowrap;
+    margin-right: 4rem;
+    text-transform: uppercase;
+}
+
+@keyframes scrollText {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-215%);
+    }
+}
+
