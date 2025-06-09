@@ -36,22 +36,6 @@ Construir uma presença digital impactante e funcional para destacar:
 
 ---
 
-📁 **Estrutura de Diretórios**
-
-C-Hub/
-├── index.html
-├── src/
-│ └── img/ # Imagens otimizadas usadas no layout
-│ ├── Logo.svg
-│ ├── hero.png
-│ ├── js-img.jpg
-│ └── ...
-├── style.css # Arquivo principal de estilos
-├── script.js # Funcionalidades interativas (se aplicável)
-
-
----
-
 👨‍💻 **Este projeto foi criado por:**
 
 ***Caio Henrique***  
